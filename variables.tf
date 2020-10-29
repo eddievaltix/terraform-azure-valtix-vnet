@@ -8,9 +8,8 @@ variable "location" {
   default     = "eastus2"
 }
 
-variable "valtix_gateway_name" {
-  description = "Name of the Valtix Gateway used to name other resources in this vnet"
-  default     = "valtix"
+variable "gw_vnet_name" {
+  description = "Name of the Valtix Gateway hub vnet"
 }
 
 variable "resource_group_name" {
